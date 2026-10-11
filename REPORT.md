@@ -122,15 +122,17 @@ graph TD
 - **Data Visualization:** Matplotlib (comparative multi-panel subplots, metric bar charts, tables)
 - **Interactive Prototyping:** Jupyter Notebook (`.ipynb`)
 
-### 6.2 Source Code Summary
-The core source code is organized in `src/image_noise_reduction.py`:
-- `add_gaussian_noise()` & `add_salt_and_pepper_noise()`: Noise generators.
-- `create_average_kernel(k)`: Generates normalized box filter.
-- `create_gaussian_kernel(k, sigma)`: Generates 2D Gaussian filter.
-- `convolve2d_single_channel()`: Custom sliding-window convolution.
-- `convolve_scratch()`: Multi-channel RGB convolution handler.
-- `compute_mse()`, `compute_psnr()`, `compute_ssim()`: Objective evaluation functions.
-- `run_noise_reduction_experiment()`: End-to-end automated pipeline.
+### 6.2 Source Code & GitHub Repository
+- **GitHub Repository URL:** [https://github.com/Nishant17s/Image-Noise-Reduction-Using-Convolution_DLE](https://github.com/Nishant17s/Image-Noise-Reduction-Using-Convolution_DLE)
+- **Core Script:** `src/image_noise_reduction.py`
+  - `add_gaussian_noise()` & `add_salt_and_pepper_noise()`: Noise generators.
+  - `create_average_kernel(k)`: Generates normalized box filter.
+  - `create_gaussian_kernel(k, sigma)`: Generates 2D Gaussian filter.
+  - `convolve2d_single_channel()`: Custom sliding-window convolution.
+  - `convolve_scratch()`: Multi-channel RGB convolution handler.
+  - `compute_mse()`, `compute_psnr()`, `compute_ssim()`: Objective evaluation functions.
+  - `run_noise_reduction_experiment()`: End-to-end automated pipeline.
+- **Interactive Notebook:** `notebooks/Noise_Reduction_Analysis.ipynb`
 
 ---
 

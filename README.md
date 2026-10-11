@@ -80,8 +80,8 @@ image-noise-reduction-convolution/
 
 ### Step 1: Clone the Repository
 ```bash
-git clone <your-repo-url>
-cd <repo-folder>
+git clone https://github.com/Nishant17s/Image-Noise-Reduction-Using-Convolution_DLE.git
+cd Image-Noise-Reduction-Using-Convolution_DLE
 ```
 
 ### Step 2: Install Dependencies
