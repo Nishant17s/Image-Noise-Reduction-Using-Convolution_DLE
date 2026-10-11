@@ -1,0 +1,14 @@
+Noise Type,Filter Applied,Kernel Size,MSE,PSNR (dB),SSIM
+Gaussian (sigma=25),None (Corrupted Baseline),N/A,531.34,20.88,0.3003
+Gaussian (sigma=25),Average Filter,3x3,475.39,21.36,0.6135
+Gaussian (sigma=25),Gaussian Filter,3x3,376.71,22.37,0.6101
+Salt & Pepper (5%),Average Filter,3x3,545.53,20.76,0.5439
+Salt & Pepper (5%),Gaussian Filter,3x3,457.3,21.53,0.5498
+Gaussian (sigma=25),Average Filter,5x5,685.32,19.77,0.7419
+Gaussian (sigma=25),Gaussian Filter,5x5,562.69,20.63,0.7546
+Salt & Pepper (5%),Average Filter,5x5,710.34,19.62,0.667
+Salt & Pepper (5%),Gaussian Filter,5x5,592.52,20.4,0.6772
+Gaussian (sigma=25),Average Filter,7x7,884.12,18.67,0.7615
+Gaussian (sigma=25),Gaussian Filter,7x7,738.61,19.45,0.7888
+Salt & Pepper (5%),Average Filter,7x7,895.91,18.61,0.7174
+Salt & Pepper (5%),Gaussian Filter,7x7,753.18,19.36,0.7423
